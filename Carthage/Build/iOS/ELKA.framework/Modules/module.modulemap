@@ -1,0 +1,4 @@
+framework module ELKA {
+    header "ELKA-Swift.h"
+    requires objc
+}

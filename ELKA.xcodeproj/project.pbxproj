@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7578A7942192B4B40078FD6F /* ELKA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578A7932192B4B40078FD6F /* ELKA.swift */; };
+		7578A7992192B4C20078FD6F /* HitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578A7952192B4C20078FD6F /* HitEvent.swift */; };
+		7578A79A2192B4C20078FD6F /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578A7962192B4C20078FD6F /* Tracker.swift */; };
+		7578A79C2192B4C20078FD6F /* ELKASendableEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578A7982192B4C20078FD6F /* ELKASendableEvent.swift */; };
+		7578A7A32192C9240078FD6F /* ELKAClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578A7A22192C9240078FD6F /* ELKAClient.swift */; };
+		9E6C731421919CCB007BE316 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C731321919CCB007BE316 /* Session.swift */; };
+		9E6C731621919E77007BE316 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C731521919E77007BE316 /* Device.swift */; };
+		9E6C731821929057007BE316 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C731721929057007BE316 /* Constants.swift */; };
+		9E7456E62188407700906D0D /* ELKA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7456DC2188407600906D0D /* ELKA.framework */; };
+		9E7456EB2188407700906D0D /* IBSSAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7456EA2188407700906D0D /* IBSSAnalyticsTests.swift */; };
+		9E7456ED2188407700906D0D /* IBSSAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7456DF2188407600906D0D /* IBSSAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E7456F92188413700906D0D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7456F82188413700906D0D /* Logger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E7456E72188407700906D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E7456D32188407600906D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E7456DB2188407600906D0D;
+			remoteInfo = IBSSAnalytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7578A7932192B4B40078FD6F /* ELKA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELKA.swift; sourceTree = "<group>"; };
+		7578A7952192B4C20078FD6F /* HitEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitEvent.swift; sourceTree = "<group>"; };
+		7578A7962192B4C20078FD6F /* Tracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		7578A7982192B4C20078FD6F /* ELKASendableEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELKASendableEvent.swift; sourceTree = "<group>"; };
+		7578A7A22192C9240078FD6F /* ELKAClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELKAClient.swift; sourceTree = "<group>"; };
+		9E6C731321919CCB007BE316 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		9E6C731521919E77007BE316 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		9E6C731721929057007BE316 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9E7456DC2188407600906D0D /* ELKA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELKA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7456DF2188407600906D0D /* IBSSAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBSSAnalytics.h; sourceTree = "<group>"; };
+		9E7456E02188407600906D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7456E52188407700906D0D /* ELKATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7456EA2188407700906D0D /* IBSSAnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSAnalyticsTests.swift; sourceTree = "<group>"; };
+		9E7456EC2188407700906D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7456F82188413700906D0D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E7456D82188407600906D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7456E22188407700906D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7456E62188407700906D0D /* ELKA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7578A7A12192C9160078FD6F /* service */ = {
+			isa = PBXGroup;
+			children = (
+				7578A7A22192C9240078FD6F /* ELKAClient.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		9E6C7309219158F9007BE316 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				7578A7932192B4B40078FD6F /* ELKA.swift */,
+				7578A7982192B4C20078FD6F /* ELKASendableEvent.swift */,
+				7578A7952192B4C20078FD6F /* HitEvent.swift */,
+				7578A7962192B4C20078FD6F /* Tracker.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		9E6C730A2191592D007BE316 /* hitbuilder */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C730B2191593D007BE316 /* model */,
+			);
+			path = hitbuilder;
+			sourceTree = "<group>";
+		};
+		9E6C730B2191593D007BE316 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9E6C730C2191594B007BE316 /* plotters */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C730D21915954007BE316 /* model */,
+			);
+			path = plotters;
+			sourceTree = "<group>";
+		};
+		9E6C730D21915954007BE316 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C731521919E77007BE316 /* Device.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9E6C730E21915974007BE316 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C730F21915990007BE316 /* model */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		9E6C730F21915990007BE316 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9E6C731021916F1F007BE316 /* session */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C731121916F27007BE316 /* model */,
+			);
+			path = session;
+			sourceTree = "<group>";
+		};
+		9E6C731121916F27007BE316 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C731321919CCB007BE316 /* Session.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9E6C731221916F32007BE316 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E7456F82188413700906D0D /* Logger.swift */,
+				9E6C731721929057007BE316 /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9E7456D22188407600906D0D = {
+			isa = PBXGroup;
+			children = (
+				9E7456DE2188407600906D0D /* ELKA */,
+				9E7456E92188407700906D0D /* ELKATests */,
+				9E7456DD2188407600906D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E7456DD2188407600906D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E7456DC2188407600906D0D /* ELKA.framework */,
+				9E7456E52188407700906D0D /* ELKATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E7456DE2188407600906D0D /* ELKA */ = {
+			isa = PBXGroup;
+			children = (
+				7578A7A12192C9160078FD6F /* service */,
+				9E6C731221916F32007BE316 /* utils */,
+				9E6C731021916F1F007BE316 /* session */,
+				9E6C730E21915974007BE316 /* service */,
+				9E6C730C2191594B007BE316 /* plotters */,
+				9E6C730A2191592D007BE316 /* hitbuilder */,
+				9E6C7309219158F9007BE316 /* core */,
+				9E7456DF2188407600906D0D /* IBSSAnalytics.h */,
+				9E7456E02188407600906D0D /* Info.plist */,
+			);
+			path = ELKA;
+			sourceTree = "<group>";
+		};
+		9E7456E92188407700906D0D /* ELKATests */ = {
+			isa = PBXGroup;
+			children = (
+				9E7456EA2188407700906D0D /* IBSSAnalyticsTests.swift */,
+				9E7456EC2188407700906D0D /* Info.plist */,
+			);
+			path = ELKATests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9E7456D92188407600906D0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7456ED2188407700906D0D /* IBSSAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9E7456DB2188407600906D0D /* ELKA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7456F02188407700906D0D /* Build configuration list for PBXNativeTarget "ELKA" */;
+			buildPhases = (
+				9E7456D72188407600906D0D /* Sources */,
+				9E7456D82188407600906D0D /* Frameworks */,
+				9E7456D92188407600906D0D /* Headers */,
+				9E7456DA2188407600906D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELKA;
+			productName = IBSSAnalytics;
+			productReference = 9E7456DC2188407600906D0D /* ELKA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E7456E42188407700906D0D /* ELKATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7456F32188407700906D0D /* Build configuration list for PBXNativeTarget "ELKATests" */;
+			buildPhases = (
+				9E7456E12188407700906D0D /* Sources */,
+				9E7456E22188407700906D0D /* Frameworks */,
+				9E7456E32188407700906D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E7456E82188407700906D0D /* PBXTargetDependency */,
+			);
+			name = ELKATests;
+			productName = IBSSAnalyticsTests;
+			productReference = 9E7456E52188407700906D0D /* ELKATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E7456D32188407600906D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "MIani Joy De Vera";
+				TargetAttributes = {
+					9E7456DB2188407600906D0D = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					9E7456E42188407700906D0D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 9E7456D62188407600906D0D /* Build configuration list for PBXProject "ELKA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E7456D22188407600906D0D;
+			productRefGroup = 9E7456DD2188407600906D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E7456DB2188407600906D0D /* ELKA */,
+				9E7456E42188407700906D0D /* ELKATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E7456DA2188407600906D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7456E32188407700906D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E7456D72188407600906D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7578A7992192B4C20078FD6F /* HitEvent.swift in Sources */,
+				9E6C731421919CCB007BE316 /* Session.swift in Sources */,
+				7578A7A32192C9240078FD6F /* ELKAClient.swift in Sources */,
+				7578A79C2192B4C20078FD6F /* ELKASendableEvent.swift in Sources */,
+				9E7456F92188413700906D0D /* Logger.swift in Sources */,
+				7578A79A2192B4C20078FD6F /* Tracker.swift in Sources */,
+				7578A7942192B4B40078FD6F /* ELKA.swift in Sources */,
+				9E6C731621919E77007BE316 /* Device.swift in Sources */,
+				9E6C731821929057007BE316 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7456E12188407700906D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7456EB2188407700906D0D /* IBSSAnalyticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E7456E82188407700906D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E7456DB2188407600906D0D /* ELKA */;
+			targetProxy = 9E7456E72188407700906D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E7456EE2188407700906D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E7456EF2188407700906D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E7456F12188407700906D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5X2F2V6UTR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/ELKA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.mobile.elka;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E7456F22188407700906D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5X2F2V6UTR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/ELKA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.mobile.elka;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E7456F42188407700906D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X2F2V6UTR;
+				INFOPLIST_FILE = IBSSAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.asia.mobile.IBSSAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E7456F52188407700906D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X2F2V6UTR;
+				INFOPLIST_FILE = IBSSAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.asia.mobile.IBSSAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E7456D62188407600906D0D /* Build configuration list for PBXProject "ELKA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7456EE2188407700906D0D /* Debug */,
+				9E7456EF2188407700906D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E7456F02188407700906D0D /* Build configuration list for PBXNativeTarget "ELKA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7456F12188407700906D0D /* Debug */,
+				9E7456F22188407700906D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E7456F32188407700906D0D /* Build configuration list for PBXNativeTarget "ELKATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7456F42188407700906D0D /* Debug */,
+				9E7456F52188407700906D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E7456D32188407600906D0D /* Project object */;
+}
